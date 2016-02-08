@@ -1,0 +1,144 @@
+/* ==========================================================================
+   mediaBOOM styles
+   ========================================================================== */
+
+/* when going live, these css styles should be merged into one file to make the site load faster */
+/*@import url('./css/fonts.inc.css');*/
+@import url('layout.inc.css');
+@import url('elements.inc.css');
+@import url('pages.inc.css');
+@import url('helper.inc.css');
+/* note - responsive.css is loaded directly in head for IE polyfill support */
+@import url('animate.css');
+@import url('ie.inc.css');
+
+/*#gold-page-2.pagescrollhome.gold-background { height: 774px !important;}
+#gold-page-2.pagescrollhome.gold-background .gold-page-2{ top:35% !important}
+#gold-page-1.pagescrollhome.gold-background { height: 700px !important;}
+#gold-page-1.pagescrollhome.gold-background .gold-page-1{ top:40% !important}
+#black-page-1.pagescrollhome.black-background {height: 650px !important;}
+#black-page-1.pagescrollhome.black-background .black-page-1{top:40% !important}*/
+.svgicons #globalhead h1#logo a{opacity:1 !important}
+
+
+
+
+#logo embed{
+	position: absolute;
+}
+
+.presentacion a{
+	display: inline-block;
+	margin: auto;
+	float: initial !important;
+}
+
+#srvModal li>span{
+	cursor:pointer;
+}
+.content_srv img{
+	margin:auto;
+	display: block;
+}
+
+.popup {
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 10px 1px #888888;
+	-webkit-box-shadow: 0px 0px 10px 1px #888888;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px #888888;
+	color: #888888;
+	display: inline-block;
+	height: 500px;
+	margin-top: 5%;
+	opacity: initial;
+	padding: 20px;
+	width: 550px;
+	z-index: 9999;
+}
+
+.overlay {
+	background: rgba(12, 106, 34, 0.9);
+	bottom: 0;
+	left: 0;
+	/*opacity: 0.5;*/
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 100;
+}
+
+a.close {
+	background: url("../images/cancel.png") repeat scroll left top transparent;
+	cursor: pointer;
+	float: right;
+	height: 26px;
+	left: 32px;
+	position: relative;
+	top: -33px;
+	width: 26px;
+}
+
+/*entidades Flotantes*/
+.entidades.left {
+	overflow: hidden;
+	left: 0;
+	position: fixed;
+	top: 210px;
+	z-index: 999;
+	margin-left: 20px;
+}
+.entidades.right {
+	overflow: hidden;
+	right: 0px;
+	position: fixed;
+	top: 210px;
+	z-index: 999;
+	margin-right: 20px;
+}
+.entidades a>div {
+	width: 100px;
+	height: 100px;
+	text-indent: 9999px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.ana {
+	background: url("../images/ana.png") no-repeat;
+}
+.oefa {
+	background: url("../images/oefa.png") no-repeat;
+}
+.minam {
+	background: url("../images/minam.png") no-repeat;
+}
+.minem {
+	background: url("../images/minem.png") no-repeat;
+}
+.osinergmin {
+	background: url("../images/osinergmin.png") no-repeat;
+}
+.osce {
+	background: url("../images/osce.png") no-repeat;
+}
+.vivienda {
+	background: url("../images/vivienda.png") no-repeat;
+}
+.digesa {
+	background: url("../images/digesa.png") no-repeat;
+}
+
+.creditos{
+	bottom: 0;
+	color: white;
+	font-size: 11px;
+	position: relative;
+	z-index: 9999;
+	text-align: center;
+}
+.creditos a{
+	color: white;
+	font-size: 11px;
+}
